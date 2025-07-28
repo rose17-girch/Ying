@@ -1,0 +1,62 @@
+# 应用名称和端口配置
+spring:
+  application:
+    name: laboratory
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/your_database_name?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: your_username
+    password: your_password
+    druid:
+      # 连接池核心配置
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 60000
+
+      # 监控配置（生产环境建议关闭）
+      stat-view-servlet:
+        enabled: true
+        login-username: admin
+        login-password: admin
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.project.laboratory.model.entity
+  configuration:
+    # 驼峰命名转换
+    map-underscore-to-camel-case: true
+
+
+# 日志配置
+logging:
+  level:
+    com.project.laboratory.mapper: DEBUG
+
+# 服务器配置
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+jwt:
+  # 设置jwt签名加密时使用的秘钥
+  secret-key: qweqwe
+  # 设置jwt过期时间 单位毫秒
+  ttl: 7200000
+  # 设置前端传递过来的令牌名称
+  token-name: Authentication
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-hangzhou.aliyuncs.com
+    accessKeyId: xxx
+    accessKeySecret: xxx
+    bucketName: xxx
+  ssm:
+    accessKeyId: LTAI5t7ZZEmgDisXbJR5LZty #填你自己的
+    accessKeySecret: Gqn1QqcUKNAKDZaB0wVNo62JlPMe0x #填你自己的
+    signName: 阿里云短信测试
+    templateCode: SMS_154950909
+
