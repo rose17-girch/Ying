@@ -10,5 +10,5 @@ import org.springframework.stereotype.Component;
 public class JwtProperties {
     private String tokenName; // 请求头中的token名称
     private String secretKey; // JWT签名密钥
-    private String ttl;
+    private String ttl；
 }
