@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lab.recruitment.mapper.InterviewStudentMapper">
+    <!-- 分页+姓名/方向查询报名学生 -->
+    <select id="selectApplyPage" resultType="com.lab.recruitment.entity.InterviewStudent">
+        SELECT * FROM interview_student
+        <where>
+            <if test="name != null and name != ''">
+                AND name LIKE CONCAT('%', #{name}, '%')
+            </if>
+            <if test="direction != null and direction != ''">
+                AND intent_direction = #{direction}
+            </if>
+        </where>
+        ORDER BY create_time DESC
+    </select>
+</mapper>

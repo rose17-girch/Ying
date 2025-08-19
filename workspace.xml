@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a84528f1-f594-47f8-864f-210ab3dc986a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/InterviewStudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn.wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/expection/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/expection/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/properties/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/result/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/result/ResultConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/utils/AliOSSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/utils/AliyunSmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/common/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/controller/admin/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/controller/user/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/interceptor/JwtTokenInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/mapper/InterviewResultMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/mapper/InterviewStudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/model/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/model/dto/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/model/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/model/entity/InterviewResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/model/entity/InterviewStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/model/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/service/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/laboratory/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lab/LabRecruitmentSystemApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../Java/software/Maven/apache-maven-3.8.1" />
+        <option name="localRepository" value="D:\maven-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\Java\software\Maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="30S4y3lEkZOShBT6s0fCGF6KsU8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.LabRecruitmentSystemApplicationTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ProgramData\Yingxin\.idea" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a84528f1-f594-47f8-864f-210ab3dc986a" name="Changes" comment="" />
+      <created>1753607891069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753607891069</updated>
+      <workItem from="1753607892501" duration="5663000" />
+      <workItem from="1753675107863" duration="374000" />
+      <workItem from="1753675522057" duration="623000" />
+      <workItem from="1753683932623" duration="148000" />
+      <workItem from="1753686523851" duration="1896000" />
+      <workItem from="1753694173999" duration="18000" />
+      <workItem from="1753694206685" duration="2000" />
+      <workItem from="1753697061073" duration="323000" />
+      <workItem from="1753795414473" duration="44000" />
+      <workItem from="1755479975862" duration="8059000" />
+      <workItem from="1755568727267" duration="3043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
